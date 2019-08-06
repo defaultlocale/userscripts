@@ -11,6 +11,6 @@
 (function() {
     'use strict';
 
-    var tags = document.getElementsByClassName('post-tag');
-    tags.forEach(tag => tag.getElementsByTagName('img')[0].remove());
+    var images = document.getElementsByClassName('sponsor-tag-img');
+    images.forEach(image => image.remove());
 })();
