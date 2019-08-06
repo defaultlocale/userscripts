@@ -12,5 +12,5 @@
     'use strict';
 
     var images = document.getElementsByClassName('sponsor-tag-img');
-    images.forEach(image => image.remove());
+    Array.from(images).forEach(image => image.remove());
 })();
